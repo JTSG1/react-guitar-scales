@@ -1,0 +1,56 @@
+.tab-container{
+    margin:20px;
+    padding-bottom:10px;
+}
+
+.control-group {
+    padding: 10px;  
+    text-align: left;
+    width:50%;
+    margin:auto;
+}
+
+.control-group > .control-label{
+    font-weight: bold;
+    width: 40%;
+    display: inline-block;
+    text-align: right;
+    padding-right:10px;
+}
+
+.tab-string {
+    display: flex;
+    justify-content: space-between; /* Distributes the items with equal spacing between them */
+    width: 100%; /* Ensures the container takes up the full available width */
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+}
+
+.string-fret {
+    height: 30px;
+    border-left:1px solid black;
+    flex: 1; /* Each StringFret takes up equal space */
+    display: flex; /* Makes the StringFret a flex container */
+    justify-content: right; /* Horizontally centers the text */
+    align-items: center; /* Vertically centers the text */
+    text-align: center; /* Centers the text within each StringFret */
+    /* Optional: Add padding or margin if needed */
+    position: relative;
+}
+
+.root-note{
+    background-color:rgb(100, 100, 100);
+    font-weight: bold;
+}
+
+
+.note-of-interest{
+    background-color:rgb(102, 138, 73);
+    font-weight: bold;
+}
+
+.string-fret-label{
+    position:absolute;
+    top:30px;
+    left:50%;
+}
